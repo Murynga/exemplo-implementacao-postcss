@@ -1,3 +1,4 @@
+/* Para 'resetar' as bordas e formatações padrão */
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
     font-family: tahoma, sans-serif;
 }
 
+/* Estilização de cabeçalho */
 header {
     width: 100%;
     height: 200px;
@@ -17,6 +19,7 @@ header {
     color: rgb(245, 245, 245);
 }
 
+/* Estilização da logo */
 #logo {
     max-width: 100%;
     height: auto;
@@ -25,6 +28,7 @@ header {
     padding-top: 10px;
 }
 
+/* Estilização do 'slogan' da loja */
 .descricao { 
     width: 100%;
     text-align: center;
@@ -38,7 +42,8 @@ header {
     background-color: rgb(13, 46, 18);
 }
 
-.produtos-loja {
+/* Estilização dos produtos */
+section {
     width: 100%;
     position: absolute;
     text-align: justify;
@@ -47,7 +52,13 @@ header {
     line-height: 20pt;
 }
 
-.imagens-menu {
+/* organização das descrições dos produtos com relação às imagens */
+section > div {
+    position: relative;
+}
+
+/* Estilização das imagens dos produtos */
+section > div > img {
     border: 2px solid rgb(56, 56, 56);
     margin-bottom: 18pt;
     border-radius: 10px;
@@ -55,11 +66,9 @@ header {
     height: 34vh;
 }
 
-.container-imagens {
-    position: relative;
-}
 
-.container-imagens > p {
+/* Estilização das descrições dos produtos */
+section > div > p {
     position: absolute;
     top: 30px;
     left: 43vh;
