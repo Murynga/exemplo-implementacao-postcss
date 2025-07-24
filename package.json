@@ -1,0 +1,26 @@
+{
+  "name": "exemplo-implementacao-postcss",
+  "version": "1.0.0",
+  "description": "Um exemplo de implementação da ferramenta PostCSS em um site de uma loja de esportes fictícia. Feito para atividade de seminário para a disciplina de WEB I.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss styles/style.css --dir postcss-styles --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murynga/exemplo-implementacao-postcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Murynga/exemplo-implementacao-postcss/issues"
+  },
+  "homepage": "https://github.com/Murynga/exemplo-implementacao-postcss#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  }
+}
