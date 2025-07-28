@@ -15,6 +15,7 @@ Um [mini-projeto](https://exemplo-implementacao-postcss.vercel.app/) criado com 
 ## Objetivo
 
 O objetivo da criação desse mini-projeto é mostrar como instalar, configurar e usar o PostCSS e seus plugins em um projeto.
+Além disso, iremos ensinar um pouco como usar esses plugins e suas funcionalidades.
 
 ## Instalação dos softwares necessários
 
@@ -132,6 +133,8 @@ Antes do uso do PostCSS, o nosso arquivo CSS estava menos otimizado e incompatí
 Agora, com o PostCSS, nossa folha de estilo está ligeiramente otimizada e também com maior compatibilidade:  
 
 ![Captura de tela do arquivo CSS depois do uso do PostCSS](/images/readme-images/css-depois.jpg)  
+
+A partir disso, é possível verificar as mudanças e a importância do postcss nas configurações CSS da página.
 
 ## Colaboradores
 
